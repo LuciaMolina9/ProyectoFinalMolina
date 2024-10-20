@@ -1,0 +1,191 @@
+[
+
+    {
+        "id": 1,
+        "nombre": "art 9000", 
+        "tipo": "zapatilla",
+        "colores": [
+            "negro",
+            "suela",
+            "blanco",
+            "rojo",
+            "animalprint"
+        ],
+        "talles": [
+            35,
+            36,
+            37,
+            39,
+            40
+        ],
+        "foto": "https://acdn.mitiendanube.com/stores/012/957/products/7c7e4f27-6949-45d8-b0c2-0a6640c2c5a2-6e4c486c9479c90a2417245188118672-1024-1024.webp",
+        "precio":70000
+    },
+    {
+        "id": 2,
+        "nombre": "art 3000",
+        "tipo": "zapatilla",
+        "colores": [
+            "negro",
+            "suela",
+            "blanco"
+        ],
+        "talles": [
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
+        "foto": "https://acdn.mitiendanube.com/stores/012/957/products/291aa3d5-b06d-4808-a0a8-187aa85550be-bc0107085014ba4c7117262423752838-1024-1024.webp",
+        "precio":80000
+    },
+    {
+        "id": 3,
+        "nombre": "art b200",
+        "tipo": "bota",
+        "colores": [
+            "negro",
+            "suela",
+            "blanco",
+            "rojo"
+        ],
+        "talles": [
+            35,
+            36,
+            38
+        ],
+        "foto": "https://acdn.mitiendanube.com/stores/012/957/products/ff40ecda-3b50-4119-8bf5-33a4db05de0d-b9a336100a963e9cba17245047671063-1024-1024.webp",
+        "precio":80000
+    },
+    {
+        "id": 4,
+        "nombre": "art 1000",
+        "tipo": "sandalia",
+        "colores": [
+            "negro",
+            "suela",
+            "blanco"
+        ],
+        "talles": [
+            35,
+            40
+        ],
+        "foto": "https://acdn.mitiendanube.com/stores/044/065/products/1017-2023-negro-061-e2bec168559ee99e4a16932555766487-640-0.webp",
+        "precio":40000
+    },
+    {
+        "id": 5,
+        "nombre": "art 1030",
+        "tipo": "sandalia",
+        "colores": [
+            "negro",
+            "suela",
+            "verde",
+            "rojo"
+        ],
+        "talles": [
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
+        "foto": "https://acdn.mitiendanube.com/stores/044/065/products/1016-2023-verde-061-45e81c52de8ed995b916923662631629-640-0.webp",
+        "precio":50000
+    },
+    {
+        "id": 6,
+        "nombre": "art 1050",
+        "tipo": "sandalia",
+        "colores": [
+            "negro",
+            "suela",
+            "blanco",
+            "plata"
+        ],
+        "talles": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
+        "foto": "https://acdn.mitiendanube.com/stores/044/065/products/gr-205-charol-negro-01-5964b9aa02258e159217250454523441-640-0.webp",
+        "precio":60000
+    },
+    {
+        "id": 7,
+        "nombre": "art 9050",
+        "tipo": "zapatilla",
+        "colores": [
+            "negro",
+            "suela",
+            "blanco"
+        ],
+        "talles": [
+            38,
+            39,
+            40
+        ],
+        "foto": "https://acdn.mitiendanube.com/stores/044/065/products/gr-8000-hueso-suela-01-6b395d27f40b5eac5417103618221239-640-0.webp",
+        "precio":75000
+    },
+    {
+        "id": 8,
+        "nombre": "art 9060",
+        "tipo": "zapatilla",
+        "colores": [
+            "negro",
+            "suela",
+            "blanco",
+            "rojo"
+        ],
+        "talles": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+        ],
+        "foto": "https://acdn.mitiendanube.com/stores/044/065/products/atom-suela-cuero-cuero-06-9596ede21b8d6af0ca17126015760067-640-0.webp",
+        "precio":85000
+    },
+    {
+        "id": 9,
+        "nombre": "art b300",
+        "tipo": "bota",
+        "colores": [
+            "negro",
+            "suela"
+        ],
+        "talles": [
+            35,
+            36
+        ],
+        "foto": "https://acdn.mitiendanube.com/stores/044/065/products/1354-chocolate-06-90ed57c3fb57f86b0c17213126233024-640-0.webp",
+        "precio":95000
+    },
+    {
+        "id": 10,
+        "nombre": "art b500",
+        "tipo": "bota",
+        "colores": [
+            "negro",
+            "suela",
+            "blanco",
+            "rojo"
+        ],
+        "talles": [
+            35,
+            36,
+            37,
+            38,
+            40
+        ],
+        "foto": "https://acdn.mitiendanube.com/stores/012/957/products/10bf355e-17a2-4ca8-935a-bb2d217eea6f-6bc3ae69202c4b89de17245067150016-1024-1024.webp",
+        "precio":85000
+    }
+]
