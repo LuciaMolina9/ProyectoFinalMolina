@@ -1,12 +1,32 @@
 //declaraciones
-let render = document.getElementById("renderizable")
-let filtroTalle = document.getElementById("filtroTalle")
-let filtroColor = document.getElementById("filtroColor")
-let filtroTipo = document.getElementById("filtroTipo")
-let botonFiltrar = document.getElementById("botonFiltrar")
-let resultadoFiltro
-let listaProductos = []
-let codigoGuardado
+let render = document.getElementById("renderizable");
+let filtroTalle = document.getElementById("filtroTalle");
+let filtroColor = document.getElementById("filtroColor");
+let filtroTipo = document.getElementById("filtroTipo");
+let botonFiltrar = document.getElementById("botonFiltrar");
+let resultadoFiltro;
+let listaProductos = [];
+let prodSel = [];
+let carrito = [];
+let carritoLS = localStorage.getItem('carritoLS')
+
+
+//Subida al carrito
+function subirCarrito() {
+    localStorage.setItem('carritoLS', JSON.stringify(carrito))
+}
+
+//Local Storage
+//Recuperacion
+function traerCarrito() {
+    if (carritoLS === null) {
+        JSON.stringify(localStorage.setItem('carritoLS', []))
+    }
+    else {
+        carrito = JSON.parse(carritoLS)
+    }
+}
+
 
 //funciones
 function agregar () {
@@ -14,6 +34,10 @@ function agregar () {
         text: "se agregó " + this.id, 
         duration: 3000
         }).showToast();
+    prodSel = this.id;
+    carrito.push(prodSel);
+    console.log(carrito);
+    subirCarrito()    
 }
 
 function filtrar () {
@@ -34,7 +58,6 @@ function filtrar () {
 fetch('/js/productos.json')
     .then ( (resp) => resp.json () )
     .then ( (data) => {
-        //console.log(data)
         data.forEach((id) => {
             const div = document.createElement('div')
             div.innerHTML = `
@@ -67,6 +90,8 @@ fetch('/js/productos.json')
 
 //inicio del programa
 
-
+traerCarrito();
+console.log(carrito);
 botonFiltrar.addEventListener("click", filtrar)
+
 
